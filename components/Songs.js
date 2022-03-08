@@ -7,7 +7,6 @@ import Song from './Song';
 
 function Songs() {
     const spotifyApi = useSpotify();
-    const { data: session } = useSession();
     const [playlist, setPlaylist] = useRecoilState(playlistState);
     const playlistId = useRecoilValue(playlistIdState);
 

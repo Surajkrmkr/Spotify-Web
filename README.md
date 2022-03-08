@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Web Application 
 
-## Getting Started
+spotify clone web application using Next Js and Spotify API.
+</br></br>
 
-First, run the development server:
+# Spotify User Authentication
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<img src="https://github.com/Surajkrmkr/blogy/blob/master/screenshot/1.png?raw=true" />
+</br></br>
+<p> User can sign up and sign in using email and password as well as with Google </br></br>
+Google Authentication implemented with Provider state management. </p>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Home Feed With Blogs
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src="https://github.com/Surajkrmkr/blogy/blob/master/screenshot/2.png?raw=true" />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<p> Home screen for blog feed with realtime database which is <strong>Firestore</strong> </p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Upload Blog
 
-## Learn More
+<img src="https://github.com/Surajkrmkr/blogy/blob/master/screenshot/3.png?raw=true" />
+</br></br>
+<p> User can upload blog instantly through firebase database </br></br>
+First the local image will be stored in firebase storage and then the image url will be stored in firestore with title,category and description. </p>
+</p>
 
-To learn more about Next.js, take a look at the following resources:
+# Search User
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="https://github.com/Surajkrmkr/blogy/blob/master/screenshot/4.png?raw=true" />
+</br></br>
+<p> User who has uploaded blogs will be displayed in this screen</br></br>
+User can search bloggers using their name and can visit their profile as well. </p>
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Profile Section
 
-## Deploy on Vercel
+<img src="https://github.com/Surajkrmkr/blogy/blob/master/screenshot/5.png?raw=true" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p> Authenticated user profile page</br></br>
+here user himself/herself can see their own profile with the uploaded blogs </p>
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Cateogory Section
+
+<img src="https://github.com/Surajkrmkr/blogy/blob/master/screenshot/6.png?raw=true" />
+</br></br>
+<p> This is the filterable page where blogs can be filtered out with some basic cateogries 
+</p>
+
+</br></br></br>
+
+# Used Packages are :
+
+<li>animated bottom navigation bar</li>
+<li>cached network image</li>
+<li>google font</li>
+<li> simple icons</li>
+<li>url launcher </li>
+<li>flutter native splash </li>
+</br>
+
+## for state management
+
+<li>Get </li>
+<li>Provider</li>
+<br>
+
+# TODO
+
+<li>add more features</li>
+<li> local and cloud notifications </li>
